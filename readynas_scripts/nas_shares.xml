@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<user id="craign">
+	<share nas_name="craig"/>
+	<share nas_name="dethorpe"/>
+	<share nas_name="media"/>
+	<share nas_name="backup"/>
+</user>
+<user id="claireo">
+	<share nas_name="claire"/>
+	<share nas_name="dethorpe"/>
+	<share nas_name="media"/>
+</user>
+<user id="ellao">
+	<share nas_name="ella"/>
+	<share nas_name="media" />
+</user>
+<user id="charlotteo">
+	<share nas_name="charlotte"/>
+	<share nas_name="media"/>
+</user>
+</root>

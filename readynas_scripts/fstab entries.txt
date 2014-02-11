@@ -1,0 +1,9 @@
+nas1:/dethorpe	/mnt/nas1_dethorpe	nfs user,noauto 0 0 
+nas1:/craig	/mnt/nas1_craig		nfs user,noauto 0 0 
+nas1:/ella	/mnt/nas1_ella		nfs user,noauto 0 0 
+nas1:/charlotte	/mnt/nas1_charlotte	nfs user,noauto 0 0 
+nas1:/claire	/mnt/nas1_claire	nfs user,noauto 0 0 
+nas1:/silkmill	/mnt/nas1_silkmill	nfs user,noauto 0 0 
+nas1:/shared	/mnt/nas1_shared	nfs user,auto,bg 0 0 
+nas1:/media	/mnt/nas1_media		nfs user,ro,noauto 0 0 
+
