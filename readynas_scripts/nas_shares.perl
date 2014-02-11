@@ -6,6 +6,17 @@ use Data::Dumper;
 
 #############################################################################
 
+=head1 Script to set up a users configured shares and mount them at login
+
+Reads config file nas_shares.xml to get list for each user
+
+=cut
+
+#############################################################################
+
+
+#############################################################################
+
 =head1 usage()
 
 Display uasge and exit
