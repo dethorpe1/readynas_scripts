@@ -45,7 +45,7 @@ my $config;
 my $debug=0;
 
 # see if nas is up
-system("ping -c 1 -w 1 192.168.1.211");
+system("ping -c 1 -w 20 192.168.1.211");
 if (! $?) {
 	# NAS is up
 	print ("NAS1 is up\n");
@@ -53,6 +53,18 @@ if (! $?) {
 	if (! -e "/home/$user/nas1_shared") {
 		system ("ln -s /mnt/nas1_shared /home/$user/nas1_shared");
 	}
+	my $count = 0;
+	while (! -e $configFile && $count < 20 ) {
+	    $count++;
+		print ("\nWARN: config file dosn't exist, waiting 1s for mount\n");
+		sleep 1;
+	}
+	if ($count >= 20) {
+		print ("\nERROR: config file dosn't exist\n");
+		exit;
+	}
+
+	print ("Config file found continuing with mounts\n");
 	# get config file from common share
 	if (-e $configFile) {
 		eval {$config = XMLin($configFile, ForceArray =>['share'],
