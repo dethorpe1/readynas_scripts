@@ -5,18 +5,23 @@
 	<share nas_name="dethorpe"/>
 	<share nas_name="media"/>
 	<share nas_name="backup"/>
+	<share nas_name="shared"/>
 </user>
 <user id="claireo">
 	<share nas_name="claire"/>
 	<share nas_name="dethorpe"/>
 	<share nas_name="media"/>
+	<share nas_name="shared"/>
+	<share nas_name="squeeky"/>
 </user>
 <user id="ellao">
 	<share nas_name="ella"/>
 	<share nas_name="media" />
+	<share nas_name="shared"/>
 </user>
 <user id="charlotteo">
 	<share nas_name="charlotte"/>
 	<share nas_name="media"/>
+	<share nas_name="shared"/>
 </user>
 </root>
